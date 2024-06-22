@@ -302,6 +302,12 @@ h3 {
     height: calc(100vh - 80px);
   }
 }
+@media (min-width: 992px) and (min-height: 746px) {
+  .hero .container-fluid {
+    height: calc(100vh - 80px);
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: none !important;
